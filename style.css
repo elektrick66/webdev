@@ -106,37 +106,88 @@ footer{
 .btn{
     text-decoration: none;
 }
-#introphoto{
-    /* margin-top: 3rem;
-    margin-bottom: 2rem; */
-    margin: 0 auto;
-    display: flex;
-    float: left;
-    width: 200px;
-    height: 300px;
-    /* max-width: 100%;
-    max-height: 100%; */
-    object-fit: contain;
-}
-#htmlphoto{
-    margin: 0 auto;
-    display: flex;
-    float: right;
-    max-width: 100%;
-    max-height: 100%;
 
+/*all body images except the navbar image*/
+.bodyimages {
+    width: 400px;
+    height: 300px;
 }
-#cssphoto{
-    margin: 0 auto;
-    float: left;
+
+/*intro part*/
+.introContainer {
     display: flex;
-    max-width: 100%;
-    max-height: 100%;
+    align-items: center;
+    justify-content: center
 }
-#javascriptphoto{
-    margin: 0 auto;
-    float: right;
+
+.introImage {
+    flex-basis: 40%;
+}
+  
+.introText {
+    padding-right: 15px;
+    font-size: 20px;
+    padding-left: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/*html part*/
+.htmlContainer {
     display: flex;
-    max-width: 100%;
-    max-height: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color:#ffd21c;
+}
+
+.htmlImage {
+    flex-basis: 40%;
+}
+  
+.htmlText {
+    padding-right: 15px;
+    font-size: 20px;
+    padding-left: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/*css part*/
+.cssContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#90CCF4;
+}
+
+.cssImage {
+    flex-basis: 40%;
+}
+  
+.cssText {
+    padding-right: 15px;
+    font-size: 20px;
+    padding-left: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/*js part*/
+.jsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:orange;
+}
+
+.jsImage {
+    flex-basis: 40%;
+}
+  
+.jsText {
+    padding-right: 15px;
+    font-size: 20px;
+    padding-left: 20px;
+    text-align: justify;
+    text-justify: inter-word;
 }

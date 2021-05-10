@@ -1,89 +1,105 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="icon" href="favi.png"  >
-        <title>Web Development</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="style.css">
 
-    </head>
+<head>
+    <link rel="icon" href="favi.png">
+    <title>Web Development</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
 
-    <body>
-        <header>
-            <nav class="navbar">
-                <div class="navlogo"><img class="logo" src="logo.png"></div>
-                <ul>
-                        <li><strong><a href="#intro">Intro</a></strong></li>
-                        <li><strong><a href="#html">HTML</a></strong></li>
-                        <li><strong><a href="#css">CSS</a></strong></li>
-                        <li><strong><a href="#javascript">JAVASCRIPT</a></strong></li>
-                        <li><strong><a href="#about">About</a></strong></li>
-                        
-                </ul>     
-            </nav>
-       
-        </header>
-        <video id="wallpaper" top=0 src="video.mp4" muted loop autoplay></video>
+</head>
 
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navlogo"><img class="logo" src="logo.png"></div>
+            <ul>
+                <li><strong><a href="#intro">Intro</a></strong></li>
+                <li><strong><a href="#html">HTML</a></strong></li>
+                <li><strong><a href="#css">CSS</a></strong></li>
+                <li><strong><a href="#javascript">JAVASCRIPT</a></strong></li>
+                <li><strong><a href="#about">About</a></strong></li>
 
-        <section>
+            </ul>
+        </nav>
+
+    </header>
+    <video id="wallpaper" top=0 src="video.mp4" muted loop autoplay></video>
 
 
+    <section>
+        <div class="content">
 
-            <div class="content">
-                <article class="intro">
-                    <section id="intro">
-                        <h1>Introduction</h1>
+            <h1>Introduction</h1>
+            <div class="introContainer">
 
-                        <img src="introduction.png" id="introphoto" alt="" />
-                        <p>Web development refers to building, creating, and maintaining websites. It includes aspects such as web design, web publishing, web programming, and database management. Web development includes many types of web content creation. Some examples include hand coding web pages in a text editor, building a website in a program like Dreamweaver, and updating a blog via a blogging website. In recent years, content management systems like WordPress, Drupal, and Joomla have also become popular means of web development.</p>
-
-                        <a href="" class="btn">View More</a>
-                    </section>
-                </article>
-
-                <article class="html">
-                    <section id="html">
-                        <h1>HTML5</h1>
-
-                        <img src="html5.png" id="htmlphoto" alt="" />
-                        <p>HTML5 is the next major revision of the HTML standard superseding HTML 4.01, XHTML 1.0, and XHTML 1.1. HTML5 is a standard for structuring and presenting content on the World Wide Web. HTML5 is a cooperation between the World Wide Web Consortium (W3C) and the Web Hypertext Application Technology Working Group (WHATWG). </p>
-
-                        <a href="" class="btn">View More</a>
-                    </section>
-                </article>
-
-                <article class="css">
-                    <section id="css">
-                        <h1>CSS3</h1>
-
-                        <img src="css3.png" id="cssphoto" alt="" />
-                        <p>Cascading Style Sheets Level 3 (CSS3) is the iteration of the CSS standard used in the styling and formatting of Web pages. CSS3 incorporates the CSS2 standard with some changes and improvements.<br>
-                            A key change is the division of standard into separate modules, which makes it easier to learn and understand. As of February 2014, the standard is still under development by the World Wide Web Consortium (W3C), but a number of the CSS3 properties have been implemented in the latest versions of some Web browsers.
-                        </p>
-
-                        <a href="" class="btn">View More</a>
-                    </section>
-                </article>
-
-                <article class="javascript">
-                    <section id="javascript">
-                        <h1>JavaScript</h1>
-
-                        <img src="javascript.png" id="javascriptphoto" alt="" />
-                        <p>JavaScript is a programming language that adds interactivity to your website. This happens in games, in the behavior of responses when buttons are pressed or with data entry on forms; with dynamic styling; with animation, etc. This article helps you get started with JavaScript and furthers your understanding of what is possible.</p>
-
-                        <a href="" class="btn">View More</a>
-                    </section>
-                </article>
+                <div class="introImage">
+                    <img src="./introduction.png" class="bodyimages">
+                </div>
+                <div class="introText">
+                    <p>Web development refers to building, creating, and maintaining websites. It includes aspects such
+                        as web design, web publishing, web programming, and database management. Web development
+                        includes many types of web content creation. Some examples include hand coding web pages in a
+                        text editor, building a website in a program like Dreamweaver, and updating a blog via a
+                        blogging website. In recent years, content management systems like WordPress, Drupal, and Joomla
+                        have also become popular means of web development.</p>
+                </div>
             </div>
-        </section>
 
-        <footer id="about">
-            <h2>Work done by Louay Moussa for the Web Development Project Work<br></h2>
-            louaymoussa2001@gmail.com
-         </footer>
+            <h1>HTML5</h1>
+            <div class="htmlContainer">
 
-    </body>
+                <div class="htmlText">
+                    <p>HTML5 is the next major revision of the HTML standard superseding HTML 4.01, XHTML 1.0, and XHTML
+                        1.1. HTML5 is a standard for structuring and presenting content on the World Wide Web. HTML5 is
+                        a cooperation between the World Wide Web Consortium (W3C) and the Web Hypertext Application
+                        Technology Working Group (WHATWG). </p>
+                </div>
+                <div class="htmlImage">
+                    <img src="./html5.png" class="bodyimages">
+                </div>
+            </div>
+
+            <h1>CSS3</h1>
+            <div class="cssContainer">
+
+                <div class="cssImage">
+                    <img src="./css3.png" class="bodyimages">
+                </div>
+                <div class="cssText">
+                    <p>Cascading Style Sheets Level 3 (CSS3) is the iteration of the CSS standard used in the styling
+                        and formatting of Web pages. CSS3 incorporates the CSS2 standard with some changes and
+                        improvements.<br>
+                        A key change is the division of standard into separate modules, which makes it easier to learn
+                        and understand. As of February 2014, the standard is still under development by the World Wide
+                        Web Consortium (W3C), but a number of the CSS3 properties have been implemented in the latest
+                        versions of some Web browsers.
+                    </p>
+                </div>
+            </div>
+
+            <h1>JavaScript</h1>
+            <div class="jsContainer">
+
+                <div class="jsText">
+                    <p>JavaScript is a programming language that adds interactivity to your website. This happens in
+                        games, in the behavior of responses when buttons are pressed or with data entry on forms; with
+                        dynamic styling; with animation, etc. This article helps you get started with JavaScript and
+                        furthers your understanding of what is possible.
+                    </p>
+                </div>
+                <div class="jsImage">
+                    <img src="./javascript.png" class="bodyimages">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="about">
+        <h2>Work done by Louay Moussa for the Web Development Project Work<br></h2>
+        louaymoussa2001@gmail.com
+    </footer>
+
+</body>
 
 </html>
